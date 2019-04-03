@@ -21,7 +21,11 @@ The following example shows how to add problem matchers to your project:
 			"taskName": "test",
 			"command": "mocha",
 			"group": "test",
-			"args": [],
+			"args": [
+				"--reporter", "tap",
+				"--colors",
+				"test/**/*spec.js" // or "${file}"
+			],
 			"problemMatcher": "$mocha"
 		}
 	]
