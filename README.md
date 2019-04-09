@@ -2,6 +2,8 @@
 
 A problem matcher to show [Mocha](https://mochajs.org) spec errors when running tests in the terminal.
 
+Note, this uses the TAP protocol reporter.
+
 ## Preview
 
 ![preview](./images/preview.png)
